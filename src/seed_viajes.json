@@ -1,0 +1,192 @@
+[
+{
+"_id": { "$oid": "650c1f1e1a2b3c4d5e6f8a01" },
+"empresa": "TRANSPORTE AMG",
+"chofer": "Juan Carlos Pérez",
+"camion": "AB123CD",
+"semi": "R-45678",
+"kilometros": { "salida": 120500, "llegada": 122100 },
+"ruta": { "origen": "Mendoza", "destino": "Santiago de Chile" },
+"fechas": { "carga": { "$date": "2024-03-01T08:00:00Z" }, "descarga": { "$date": "2024-03-03T14:00:00Z" } },
+"documentacion": { "remito": "R-0001-00085421", "mic": "MIC-ARG-CHI-9852", "contratoNo": "CNT-2024-012" },
+"gastosCuentaCorriente": [
+{ "fecha": { "$date": "2024-03-01T10:00:00Z" }, "estacionServicio": "YPF Uspallata", "litros": 350, "importe": 385000.0 }
+],
+"gastosContado": [
+{ "proveedor": "Gomería El Cruce", "numeroFactura": "F-0002-1204", "fecha": { "$date": "2024-03-02T11:30:00Z" }, "importe": 45000.0, "adelanto": 50000.0 }
+],
+"peajes": {
+"argentinos": [ { "estacion": "Uspallata", "importe": 3500.0 } ],
+"chilenos": [ { "estacion": "Los Libertadores", "importeCLP": 12000, "cambio": 1.25, "importeARS": 15000.0 } ]
+},
+"estado": "Finalizado"
+},
+{
+"_id": { "$oid": "650c1f1e1a2b3c4d5e6f8a02" },
+"empresa": "TRANSPORTE AMG",
+"chofer": "Roberto Gómez",
+"camion": "AC456EF",
+"semi": "R-12399",
+"kilometros": { "salida": 85000, "llegada": 86400 },
+"ruta": { "origen": "Buenos Aires", "destino": "Mendoza" },
+"fechas": { "carga": { "$date": "2024-03-05T06:00:00Z" }, "descarga": { "$date": "2024-03-06T18:00:00Z" } },
+"documentacion": { "remito": "R-0001-00085455", "contratoNo": "CNT-2024-018" },
+"gastosCuentaCorriente": [
+{ "fecha": { "$date": "2024-03-05T12:00:00Z" }, "estacionServicio": "Shell Junín", "litros": 280, "importe": 315000.0 }
+],
+"peajes": {
+"argentinos": [ { "estacion": "Ameghino", "importe": 2800.0 }, { "estacion": "Luján", "importe": 2800.0 } ]
+},
+"estado": "Finalizado"
+},
+{
+"_id": { "$oid": "650c1f1e1a2b3c4d5e6f8a03" },
+"empresa": "TRANSPORTE AMG",
+"chofer": "Martín Rodríguez",
+"camion": "AD789GH",
+"semi": "R-88712",
+"kilometros": { "salida": 210000, "llegada": 211850 },
+"ruta": { "origen": "Rosario", "destino": "Valparaíso" },
+"fechas": { "carga": { "$date": "2024-03-08T09:00:00Z" }, "descarga": { "$date": "2024-03-10T16:00:00Z" } },
+"documentacion": { "remito": "R-0001-00085501", "mic": "MIC-ARG-CHI-9910", "contratoNo": "CNT-2024-022" },
+"gastosCuentaCorriente": [
+{ "fecha": { "$date": "2024-03-08T14:00:00Z" }, "estacionServicio": "AXION Río Cuarto", "litros": 400, "importe": 440000.0 }
+],
+"gastosContado": [
+{ "proveedor": "Mecánica San José", "numeroFactura": "F-0001-0089", "fecha": { "$date": "2024-03-09T08:00:00Z" }, "importe": 85000.0, "adelanto": 100000.0 }
+],
+"peajes": {
+"argentinos": [ { "estacion": "Río Cuarto", "importe": 3000.0 } ],
+"chilenos": [ { "estacion": "Chacabuco", "importeCLP": 15000, "cambio": 1.25, "importeARS": 18750.0 } ]
+},
+"estado": "Finalizado"
+},
+{
+"_id": { "$oid": "650c1f1e1a2b3c4d5e6f8a04" },
+"empresa": "TRANSPORTE AMG",
+"chofer": "Juan Carlos Pérez",
+"camion": "AB123CD",
+"semi": "R-45678",
+"kilometros": { "salida": 122100 },
+"ruta": { "origen": "Mendoza", "destino": "Córdoba" },
+"fechas": { "carga": { "$date": "2024-03-12T07:30:00Z" } },
+"documentacion": { "remito": "R-0001-00085530" },
+"gastosCuentaCorriente": [
+{ "fecha": { "$date": "2024-03-12T11:00:00Z" }, "estacionServicio": "YPF San Luis", "litros": 220, "importe": 242000.0 }
+],
+"peajes": {
+"argentinos": [ { "estacion": "Desaguadero", "importe": 2500.0 } ]
+},
+"estado": "En Tránsito"
+},
+{
+"_id": { "$oid": "650c1f1e1a2b3c4d5e6f8a05" },
+"empresa": "TRANSPORTE AMG",
+"chofer": "Carlos Benítez",
+"camion": "AE112JK",
+"semi": "R-33411",
+"kilometros": { "salida": 45000, "llegada": 46200 },
+"ruta": { "origen": "Córdoba", "destino": "Buenos Aires" },
+"fechas": { "carga": { "$date": "2024-03-14T10:00:00Z" }, "descarga": { "$date": "2024-03-15T11:00:00Z" } },
+"documentacion": { "remito": "R-0001-00085580", "contratoNo": "CNT-2024-029" },
+"gastosCuentaCorriente": [],
+"peajes": {
+"argentinos": [ { "estacion": "Carcarañá", "importe": 2200.0 } ]
+},
+"estado": "Finalizado"
+},
+{
+"_id": { "$oid": "650c1f1e1a2b3c4d5e6f8a06" },
+"empresa": "TRANSPORTE AMG",
+"chofer": "Roberto Gómez",
+"camion": "AC456EF",
+"semi": "R-12399",
+"kilometros": { "salida": 86400, "llegada": 87950 },
+"ruta": { "origen": "Mendoza", "destino": "Santiago de Chile" },
+"fechas": { "carga": { "$date": "2024-03-16T08:00:00Z" }, "descarga": { "$date": "2024-03-18T13:00:00Z" } },
+"documentacion": { "remito": "R-0001-00085610", "mic": "MIC-ARG-CHI-9988", "contratoNo": "CNT-2024-033" },
+"gastosCuentaCorriente": [
+{ "fecha": { "$date": "2024-03-16T10:30:00Z" }, "estacionServicio": "YPF Uspallata", "litros": 360, "importe": 396000.0 }
+],
+"gastosContado": [
+{ "proveedor": "Aduana Servicios", "numeroFactura": "F-0005-4410", "fecha": { "$date": "2024-03-17T09:00:00Z" }, "importe": 30000.0, "adelanto": 30000.0 }
+],
+"peajes": {
+"argentinos": [ { "estacion": "Uspallata", "importe": 3500.0 } ],
+"chilenos": [ { "estacion": "Los Libertadores", "importeCLP": 12000, "cambio": 1.25, "importeARS": 15000.0 } ]
+},
+"estado": "Finalizado"
+},
+{
+"_id": { "$oid": "650c1f1e1a2b3c4d5e6f8a07" },
+"empresa": "TRANSPORTE AMG",
+"chofer": "Esteban Morales",
+"camion": "AF334LM",
+"semi": "R-99012",
+"kilometros": { "salida": 150000, "llegada": 151100 },
+"ruta": { "origen": "Tucumán", "destino": "Rosario" },
+"fechas": { "carga": { "$date": "2024-03-18T05:00:00Z" }, "descarga": { "$date": "2024-03-19T12:00:00Z" } },
+"documentacion": { "remito": "R-0001-00085640" },
+"gastosCuentaCorriente": [
+{ "fecha": { "$date": "2024-03-18T13:00:00Z" }, "estacionServicio": "Puma Santiago del Estero", "litros": 300, "importe": 330000.0 }
+],
+"peajes": {
+"argentinos": [ { "estacion": "Fernández", "importe": 2000.0 } ]
+},
+"estado": "Finalizado"
+},
+{
+"_id": { "$oid": "650c1f1e1a2b3c4d5e6f8a08" },
+"empresa": "TRANSPORTE AMG",
+"chofer": "Martín Rodríguez",
+"camion": "AD789GH",
+"semi": "R-88712",
+"kilometros": { "salida": 211850 },
+"ruta": { "origen": "Mendoza", "destino": "Viña del Mar" },
+"fechas": { "carga": { "$date": "2024-03-20T07:00:00Z" } },
+"documentacion": { "remito": "R-0001-00085690", "mic": "MIC-ARG-CHI-1002" },
+"gastosCuentaCorriente": [
+{ "fecha": { "$date": "2024-03-20T09:30:00Z" }, "estacionServicio": "YPF Uspallata", "litros": 340, "importe": 374000.0 }
+],
+"peajes": {
+"argentinos": [ { "estacion": "Uspallata", "importe": 3500.0 } ]
+},
+"estado": "En Tránsito"
+},
+{
+"_id": { "$oid": "650c1f1e1a2b3c4d5e6f8a09" },
+"empresa": "TRANSPORTE AMG",
+"chofer": "Carlos Benítez",
+"camion": "AE112JK",
+"semi": "R-33411",
+"kilometros": { "salida": 46200, "llegada": 47100 },
+"ruta": { "origen": "Buenos Aires", "destino": "Bahía Blanca" },
+"fechas": { "carga": { "$date": "2024-03-22T06:30:00Z" }, "descarga": { "$date": "2024-03-23T08:00:00Z" } },
+"documentacion": { "remito": "R-0001-00085720", "contratoNo": "CNT-2024-041" },
+"gastosCuentaCorriente": [
+{ "fecha": { "$date": "2024-03-22T12:00:00Z" }, "estacionServicio": "Shell Azul", "litros": 250, "importe": 280000.0 }
+],
+"peajes": {
+"argentinos": [ { "estacion": "Cañuelas", "importe": 2100.0 }, { "estacion": "Azul", "importe": 2100.0 } ]
+},
+"estado": "Finalizado"
+},
+{
+"_id": { "$oid": "650c1f1e1a2b3c4d5e6f8a10" },
+"empresa": "TRANSPORTE AMG",
+"chofer": "Juan Carlos Pérez",
+"camion": "AB123CD",
+"semi": "R-45678",
+"kilometros": { "salida": 122850, "llegada": 123600 },
+"ruta": { "origen": "Córdoba", "destino": "Rosario" },
+"fechas": { "carga": { "$date": "2024-03-25T08:00:00Z" }, "descarga": { "$date": "2024-03-25T19:00:00Z" } },
+"documentacion": { "remito": "R-0001-00085750" },
+"gastosCuentaCorriente": [
+{ "fecha": { "$date": "2024-03-25T11:00:00Z" }, "estacionServicio": "YPF Villa María", "litros": 180, "importe": 198000.0 }
+],
+"peajes": {
+"argentinos": [ { "estacion": "Toledo", "importe": 1800.0 } ]
+},
+"estado": "Finalizado"
+}
+]
